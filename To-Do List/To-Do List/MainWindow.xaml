@@ -5,8 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:To_Do_List"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="MainWindow" Height="450" Width="400" Background="Azure">
+    <Grid x:Name="Body_form">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF9200FF" Offset="0.265"/>
+                <GradientStop Color="#FF684DC0" Offset="0.721"/>
+                <GradientStop Color="#FF9488B9" Offset="0.969"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="240,99,0,0" VerticalAlignment="Top" Height="36" Width="90" Click="Button_Click"/>
     </Grid>
 </Window>
