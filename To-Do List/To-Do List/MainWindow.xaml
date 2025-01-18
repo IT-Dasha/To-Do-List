@@ -128,7 +128,7 @@
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="{x:Type TextBox}">
-                        <ScrollViewer x:Name="PART_ContentHost" Background="Transparent" Focusable="false" HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden"/>
+                        <ScrollViewer x:Name="PART_ContentHost" Background="Black" Focusable="false" HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden"/>
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
@@ -439,9 +439,9 @@
                 <GradientStop Color="#FF9488B9" Offset="0.969"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <Button Style="{DynamicResource ButtonStyle1}" x:Name="but_add" Content="Button" HorizontalAlignment="Left" Margin="40,72,0,0" VerticalAlignment="Top" Height="22" Width="98" Click="Button_Click" Background="#FFFAB6FF" BorderBrush="Black" Grid.Column="1"/>
+        <Button Style="{DynamicResource ButtonStyle1}" x:Name="but_add" Content="Button" HorizontalAlignment="Left" Margin="40,74,0,0" VerticalAlignment="Top" Height="22" Width="98" Click="Button_Click" Background="#FFFAB6FF" BorderBrush="Black" Grid.Column="1"/>
         <TextBox Style="{DynamicResource TextBoxStyle1}" HorizontalAlignment="Left" Margin="25,44,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="353" Height="18" RenderTransformOrigin="0.296,0.558" Background="#FFFDE1FF" Grid.ColumnSpan="2"/>
-        <ComboBox x:Name="list_priority" Style="{DynamicResource ComboBoxStyle}" HorizontalAlignment="Left" Margin="25,72,0,0" VerticalAlignment="Top" Width="85" BorderBrush="#FFFAB6FF" Foreground="#FFFFA5A5" Height="22" >
+        <ComboBox x:Name="list_priority" Style="{DynamicResource ComboBoxStyle}" HorizontalAlignment="Left" Margin="25,74,0,0" VerticalAlignment="Top" Width="85" BorderBrush="#FFFAB6FF" Foreground="#FFFFA5A5" Height="22" >
             <ComboBox.Background>
                 <LinearGradientBrush EndPoint="0,1">
                     <GradientStop Color="#FFF0F0F0"/>
@@ -449,9 +449,9 @@
                 </LinearGradientBrush>
             </ComboBox.Background>
         </ComboBox>
-        <DatePicker HorizontalAlignment="Left" Margin="146,71,0,0" VerticalAlignment="Top" Width="108" Grid.ColumnSpan="2"/>
-        <ListBox x:Name="list" Style="{DynamicResource ListBoxStyle}" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="24,109,24,74" Grid.ColumnSpan="2" Background="#FFFBD3FF"/>
-        <Image x:Name="ico_notification_one" HorizontalAlignment="Left" Height="20" Margin="110,71,0,0" VerticalAlignment="Top" Width="35" RenderTransformOrigin="0.6,0.502"/>
+        <DatePicker HorizontalAlignment="Left" Margin="146,72,0,0" VerticalAlignment="Top" Width="108" Grid.ColumnSpan="2"/>
+        <ListBox x:Name="list" Style="{DynamicResource ListBoxStyle}" Margin="24,109,24,74" Grid.ColumnSpan="2" Background="#FFFBD3FF"/>
+        <Image Source="/741927.png" Stretch="Fill" Margin="92,365,110,20" Grid.ColumnSpan="2"/>
 
     </Grid>
 </Window>
