@@ -29,12 +29,19 @@ namespace To_Do_List
         {
             // Получаем текст из TextBox
             string newItem = post_text.Text;
+            DateTime? selectedDate = date.SelectedDate;
 
             // Проверяем, не пустой ли текст
-            if (!string.IsNullOrWhiteSpace(newItem))
+            if (!string.IsNullOrWhiteSpace(newItem)|| selectedDate.HasValue)
             {
+                // Вычисляем количество дней до выбранной даты
+                TimeSpan timeUntilDate = selectedDate.Value - DateTime.Today;
+                int daysRemaining = timeUntilDate.Days;
+
+                // Очищаем DatePicker
+                date.SelectedDate = null;
                 // Добавляем новый элемент в ListBox
-                list.Items.Add(newItem);
+                list.Items.Add(newItem+" Срок: "+selectedDate.Value.ToString("d")+" осталось: "+ daysRemaining);
 
                 // Очищаем TextBox
                 post_text.Clear();
