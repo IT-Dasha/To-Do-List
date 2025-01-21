@@ -27,7 +27,22 @@ namespace To_Do_List
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            // Получаем текст из TextBox
+            string newItem = post_text.Text;
 
+            // Проверяем, не пустой ли текст
+            if (!string.IsNullOrWhiteSpace(newItem))
+            {
+                // Добавляем новый элемент в ListBox
+                list.Items.Add(newItem);
+
+                // Очищаем TextBox
+                post_text.Clear();
+            }
+            else
+            {
+                MessageBox.Show("Введите текст для добавления в список.", "Ошибка", MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
         }
     }
 }
