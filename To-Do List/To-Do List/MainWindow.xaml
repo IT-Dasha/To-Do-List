@@ -442,7 +442,7 @@
             </LinearGradientBrush>
         </Grid.Background>
         <Button Style="{DynamicResource ButtonStyle1}" x:Name="but_add" Content="Добавить" HorizontalAlignment="Left" Margin="0,74,0,0" VerticalAlignment="Top" Height="22" Width="98" Click="Button_Click" Background="#FFFAB6FF" BorderBrush="Black" Grid.Column="2"/>
-        <TextBox x:Name="post_text" Style="{DynamicResource TextBoxStyle1}" HorizontalAlignment="Left" Margin="25,44,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="353" Height="18" RenderTransformOrigin="0.296,0.558" Background="#FFFDE1FF" Grid.ColumnSpan="3"/>
+        <TextBox x:Name="post_text" Style="{DynamicResource TextBoxStyle1}" HorizontalAlignment="Left" Margin="25,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="353" Height="18" RenderTransformOrigin="0.296,0.558" Background="#FFFDE1FF" Grid.ColumnSpan="3"/>
         <ComboBox x:Name="list_priority" Style="{DynamicResource ComboBoxStyle}" HorizontalAlignment="Left" Margin="25,74,0,0" VerticalAlignment="Top" Width="85" BorderBrush="#FFFAB6FF" Foreground="Black" Height="22" >
             <ComboBox.Background>
                 <LinearGradientBrush EndPoint="0,1">
@@ -450,7 +450,7 @@
                     <GradientStop Color="Black" Offset="1"/>
                 </LinearGradientBrush>
             </ComboBox.Background>
-            <TextBlock>Срочное и важное</TextBlock>
+            <TextBlock Background="Red">Срочное и важное</TextBlock>
             <TextBlock>Важное но не срочное</TextBlock>
             <TextBlock>Не важное и не срочное</TextBlock>
             <TextBlock>Не срочно но важно</TextBlock>
