@@ -40,8 +40,34 @@ namespace To_Do_List
 
                 // Очищаем DatePicker
                 date.SelectedDate = null;
+                // Добавляем новый элемент в ListBox определенным цветом в соответствии выбором типа задачи
+                // Создаем новый текстовый элемент
+                TextBlock newTextBlock = new TextBlock();
+
+                // Устанавливаем текст
+                newTextBlock.Text = newItem + " Срок: " + selectedDate.Value.ToString("d") + " осталось: " + daysRemaining;
+
+                // Устанавливаем цвет текста в зависимости от выбранного элемента
+                if (list_priority.SelectedIndex == 0)
+                {
+                    newTextBlock.Foreground = new SolidColorBrush(Colors.Red); 
+                }
+                else if (list_priority.SelectedIndex == 1)
+                {
+                    newTextBlock.Foreground = new SolidColorBrush(Colors.Orange);
+                }
+                else if (list_priority.SelectedIndex == 2)
+                {
+                    newTextBlock.Foreground = new SolidColorBrush(Colors.Yellow); 
+                }
+
+                else if (list_priority.SelectedIndex == 3)
+                {
+                    newTextBlock.Foreground = new SolidColorBrush(Colors.Green); 
+                }
+
                 // Добавляем новый элемент в ListBox
-                list.Items.Add(newItem+" Срок: "+selectedDate.Value.ToString("d")+" осталось: "+ daysRemaining);
+                list.Items.Add(newTextBlock);
 
                 // Очищаем TextBox
                 post_text.Clear();

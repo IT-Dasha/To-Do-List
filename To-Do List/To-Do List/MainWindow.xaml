@@ -450,10 +450,10 @@
                     <GradientStop Color="Black" Offset="1"/>
                 </LinearGradientBrush>
             </ComboBox.Background>
-            <TextBlock Background="Red">Срочное и важное</TextBlock>
-            <TextBlock>Важное но не срочное</TextBlock>
-            <TextBlock>Не важное и не срочное</TextBlock>
-            <TextBlock>Не срочно но важно</TextBlock>
+            <TextBlock x:Name="Red" Background="Red">Срочное и важное</TextBlock>
+            <TextBlock Background="Orange">Важное но не срочное</TextBlock>
+            <TextBlock Background="Yellow">Не важное и не срочное</TextBlock>
+            <TextBlock Background="Green">Не срочно но важно</TextBlock>
         </ComboBox>
         <DatePicker x:Name="date" HorizontalAlignment="Left" Margin="146,72,0,0" VerticalAlignment="Top" Width="108" Grid.ColumnSpan="2"/>
         <ListBox x:Name="list" Style="{DynamicResource ListBoxStyle}" Margin="24,109,14,74" Grid.ColumnSpan="3" Background="#FFFBD3FF">
