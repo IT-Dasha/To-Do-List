@@ -13,6 +13,10 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+
+
+
+
 namespace To_Do_List
 {
     /// <summary>
@@ -71,6 +75,8 @@ namespace To_Do_List
 
                 // Очищаем TextBox
                 post_text.Clear();
+
+
             }
             else
             {

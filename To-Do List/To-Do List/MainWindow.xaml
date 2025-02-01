@@ -450,7 +450,7 @@
                     <GradientStop Color="Black" Offset="1"/>
                 </LinearGradientBrush>
             </ComboBox.Background>
-            <TextBlock x:Name="Red" Background="Red">Срочное и важное</TextBlock>
+            <TextBlock Background="Red">Срочное и важное</TextBlock>
             <TextBlock Background="Orange">Важное но не срочное</TextBlock>
             <TextBlock Background="Yellow">Не важное и не срочное</TextBlock>
             <TextBlock Background="Green">Не срочно но важно</TextBlock>
