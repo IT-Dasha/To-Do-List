@@ -444,7 +444,7 @@
         </Grid.Background>
         <Button Style="{DynamicResource ButtonStyle1}" x:Name="but_add" Content="Добавить" HorizontalAlignment="Left" Margin="0,74,0,0" VerticalAlignment="Top" Height="22" Width="98" Click="Button_Click" Background="#FFFAB6FF" BorderBrush="Black" Grid.Column="3"/>
         <TextBox x:Name="post_text" Style="{DynamicResource TextBoxStyle1}" HorizontalAlignment="Left" Margin="25,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="353" Height="18" RenderTransformOrigin="0.296,0.558" Background="#FFFDE1FF" Grid.ColumnSpan="4"/>
-        <ComboBox x:Name="list_priority" Style="{DynamicResource ComboBoxStyle}" HorizontalAlignment="Left" Margin="25,74,0,0" VerticalAlignment="Top" Width="85" BorderBrush="#FFFAB6FF" Foreground="Black" Height="22" Grid.ColumnSpan="2" >
+        <ComboBox x:Name="list_priority" Style="{DynamicResource ComboBoxStyle}" HorizontalAlignment="Left" Margin="25,74,0,0" VerticalAlignment="Top" Width="105" BorderBrush="#FFFAB6FF" Foreground="Black" Height="22" Grid.ColumnSpan="2" >
             <ComboBox.Background>
                 <LinearGradientBrush EndPoint="0,1">
                     <GradientStop Color="#FFF0F0F0"/>
@@ -456,7 +456,6 @@
             <TextBlock Background="Yellow">Не важное и не срочное</TextBlock>
             <TextBlock Background="Green">Не срочно но важно</TextBlock>
         </ComboBox>
-        <DatePicker x:Name="date" HorizontalAlignment="Left" Margin="96,72,0,0" VerticalAlignment="Top" Width="108" Grid.ColumnSpan="2" Grid.Column="1"/>
         <ListBox x:Name="list" Style="{DynamicResource ListBoxStyle}" Margin="24,109,14,74" Grid.ColumnSpan="4" Background="#FFFBD3FF">
             <ListBox.ItemTemplate>
                 <DataTemplate>
@@ -464,5 +463,6 @@
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
+        <TextBox x:Name="post_text_Копировать" Style="{DynamicResource TextBoxStyle1}" HorizontalAlignment="Left" Margin="102,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="108" Height="18" RenderTransformOrigin="-0.99,0.447" Background="#FFFDE1FF" Grid.Column="1" Grid.ColumnSpan="2"/>
     </Grid>
 </Window>

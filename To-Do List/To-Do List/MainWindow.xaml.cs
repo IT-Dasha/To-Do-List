@@ -76,9 +76,6 @@ namespace To_Do_List
 
                 // Очищаем TextBox
                 post_text.Clear();
-                var notify = new ToastContentBuilder();
-                notify.AddText("FG00");
-                notify.Show();
             }
             else
             {
