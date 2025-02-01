@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Toolkit.Uwp.Notifications;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -75,8 +76,9 @@ namespace To_Do_List
 
                 // Очищаем TextBox
                 post_text.Clear();
-
-
+                var notify = new ToastContentBuilder();
+                notify.AddText("FG00");
+                notify.Show();
             }
             else
             {
