@@ -30,10 +30,9 @@ To-Do List — это простая и удобная программа для
 
 
 ## Средства связи и сотрудничества
-Если у вас есть вопросы, предложения или вы хотите обсудить сотрудничество, свяжитесь со мной через следующие каналы:
-    <a href="https://discord.gg/HjJCwm5">
+    <a href="https://t.me/Dasha_Kashirina">
         <img src="https://img.shields.io/badge/Telegram-@Dasha_Kashirina-2CA5E0?style=flat-square&logo=telegram"
-            alt="Chat on Discord"></a>
+            alt="Телега"></a>
 
 [Telegram](https://путь/к/ссылке) [ВКонтакте](https://vk.com/dasha_life_diary)  
 
