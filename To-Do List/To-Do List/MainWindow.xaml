@@ -452,13 +452,14 @@
             <TextBlock Background="Yellow">Не важное и не срочное</TextBlock>
             <TextBlock Background="Green">Не срочно но важно</TextBlock>
         </ComboBox>
-        <ListBox x:Name="list" Style="{DynamicResource ListBoxStyle}" Margin="0,113,0,70" Background="#FFFBD3FF" HorizontalAlignment="Center" Width="360" FontFamily="Ink Free">
+        <ListBox x:Name="list" Style="{DynamicResource ListBoxStyle}" Margin="0,113,0,45" Background="#FFFBD3FF" HorizontalAlignment="Center" Width="360" FontFamily="Ink Free">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <CheckBox Content="{Binding}" />
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
+        <Label x:Name="title_label" Content="Список дел" HorizontalAlignment="Left" Margin="136,0,0,0" VerticalAlignment="Top" Width="264" FontSize="24" Foreground="White" FontFamily="Ink Free" FontWeight="Bold"/>
 
     </Grid>
 </Window>
