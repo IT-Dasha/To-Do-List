@@ -28,7 +28,6 @@ namespace To_Do_List
         public MainWindow()
         {
             InitializeComponent();
-            this.Icon = new BitmapImage(new Uri("icon.ico", UriKind.RelativeOrAbsolute));
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -46,7 +45,7 @@ namespace To_Do_List
                 TextBlock newTextBlock = new TextBlock();
 
                 // Устанавливаем текст
-                newTextBlock.Text = newItem + " Срок: " + " осталось: ";
+                newTextBlock.Text = newItem;
 
                 // Устанавливаем цвет текста в зависимости от выбранного элемента
                 if (list_priority.SelectedIndex == 0)

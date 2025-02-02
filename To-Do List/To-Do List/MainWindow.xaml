@@ -427,7 +427,7 @@
             </Setter>
         </Style>
     </Window.Resources>
-    <Grid x:Name="Body_form">
+    <Grid  x:Name="Body_form">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
@@ -438,9 +438,9 @@
                 <GradientStop Color="#FF9488B9" Offset="0.969"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <Button Style="{DynamicResource ButtonStyle1}" x:Name="but_add" Content="Добавить" HorizontalAlignment="Left" Margin="219,75,0,0" VerticalAlignment="Top" Height="22" Width="155" Click="Button_Click" Background="#FFFAB6FF" BorderBrush="Black" FontSize="14" FontWeight="Bold" FontFamily="Ink Free"/>
-        <TextBox x:Name="post_text" Style="{DynamicResource TextBoxStyle1}" HorizontalAlignment="Left" Margin="22,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="358" Height="18" RenderTransformOrigin="0.296,0.558" Background="#FFFDE1FF" FontFamily="Ink Free"/>
-        <ComboBox x:Name="list_priority" Style="{DynamicResource ComboBoxStyle}" HorizontalAlignment="Left" Margin="21,75,0,0" VerticalAlignment="Top" Width="190" BorderBrush="#FFFAB6FF" Foreground="Black" Height="22" FontFamily="Ink Free" >
+        <Button Style="{DynamicResource ButtonStyle1}" x:Name="but_add" Content="Добавить" HorizontalAlignment="Left" Margin="215,75,0,0" VerticalAlignment="Top" Height="22" Width="155" Click="Button_Click" Background="#FFFAB6FF" BorderBrush="Black" FontSize="14" FontWeight="Bold" FontFamily="Ink Free"/>
+        <TextBox x:Name="post_text" Style="{DynamicResource TextBoxStyle1}" HorizontalAlignment="Left" Margin="17,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="353" Height="18" RenderTransformOrigin="0.296,0.558" Background="#FFFDE1FF" FontFamily="Ink Free"/>
+        <ComboBox x:Name="list_priority" Style="{DynamicResource ComboBoxStyle}" HorizontalAlignment="Left" Margin="15,75,0,0" VerticalAlignment="Top" Width="190" BorderBrush="#FFFAB6FF" Foreground="Black" Height="22" FontFamily="Ink Free" >
             <ComboBox.Background>
                 <LinearGradientBrush EndPoint="0,1">
                     <GradientStop Color="#FFF0F0F0"/>
