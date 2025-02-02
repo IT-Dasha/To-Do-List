@@ -28,6 +28,7 @@ namespace To_Do_List
         public MainWindow()
         {
             InitializeComponent();
+            this.Icon = new BitmapImage(new Uri("icon.ico", UriKind.RelativeOrAbsolute));
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
