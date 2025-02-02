@@ -1,11 +1,11 @@
-﻿<Window x:Class="To_Do_List.MainWindow"
+﻿<Window x:Name="To_do_list" x:Class="To_Do_List.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:To_Do_List"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="400" Background="Azure"
+        Title="To_do_list" Height="450" Width="400" Background="Azure"
     xmlns:theme="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero2" ResizeMode="CanMinimize">
     <Window.Resources>
         <Style x:Key="FocusVisual">
