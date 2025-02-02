@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:To_Do_List"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="400" Background="Azure"
-    xmlns:theme="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero2">
+    xmlns:theme="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero2" ResizeMode="CanMinimize">
     <Window.Resources>
         <Style x:Key="FocusVisual">
             <Setter Property="Control.Template">
@@ -447,10 +447,10 @@
                     <GradientStop Color="Black" Offset="1"/>
                 </LinearGradientBrush>
             </ComboBox.Background>
-            <TextBlock Background="Red">Срочное и важное</TextBlock>
-            <TextBlock Background="Orange">Важное но не срочное</TextBlock>
-            <TextBlock Background="Yellow">Не важное и не срочное</TextBlock>
-            <TextBlock Background="Green">Не срочно но важно</TextBlock>
+            <TextBlock Background="Red" Foreground="White">Срочное и важное</TextBlock>
+            <TextBlock Background="Orange" Foreground="Black">Важное но не срочное</TextBlock>
+            <TextBlock Background="Yellow" Foreground="Black">Не важное и не срочное</TextBlock>
+            <TextBlock Background="Green" Foreground="White">Не срочно но важно</TextBlock>
         </ComboBox>
         <ListBox x:Name="list" Style="{DynamicResource ListBoxStyle}" Margin="0,113,0,45" Background="#FFFBD3FF" HorizontalAlignment="Center" Width="360" FontFamily="Ink Free">
             <ListBox.ItemTemplate>
