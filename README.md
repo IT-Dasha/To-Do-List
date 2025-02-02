@@ -30,9 +30,9 @@ To-Do List — это простая и удобная программа для
 
 
 ## Средства связи и сотрудничества
-    <a href="https://t.me/Dasha_Kashirina">
-        <img src="https://img.shields.io/badge/Telegram-@Dasha_Kashirina-2CA5E0?style=flat-square&logo=telegram">
-        </a>
+<a href="https://t.me/Dasha_Kashirina"><img alt="Static Badge" src="https://img.shields.io/badge/Telegram-blue?style=flat&logo=Telegram&logoColor=white"></a>
+<a href="https://vk.com/dasha_life_diary"><img alt="Static Badge" src="https://img.shields.io/badge/VK-blue?style=flat&logo=Vk&logoColor=white"></a>
 
-[ВКонтакте](https://vk.com/dasha_life_diary)  
+
+
 
