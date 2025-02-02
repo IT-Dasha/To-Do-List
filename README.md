@@ -31,9 +31,7 @@ To-Do List — это простая и удобная программа для
 
 ## Средства связи и сотрудничества
 Если у вас есть вопросы, предложения или вы хотите обсудить сотрудничество, свяжитесь со мной через следующие каналы:
-    <a href="https://t.me/Dasha_Kashirina">
-        <img src="https://www.hamburger-umzug.com/wp-content/uploads/shutterstock_1221384856-1536x1536.jpg"
-            alt="Telegram"></a>
+    <a href="https://t.me/Dasha_Kashirina"></a>
 
 [Telegram](https://путь/к/ссылке) [ВКонтакте](https://vk.com/dasha_life_diary)  
 
