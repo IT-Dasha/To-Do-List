@@ -31,8 +31,8 @@ To-Do List — это простая и удобная программа для
 
 ## Средства связи и сотрудничества
     <a href="https://t.me/Dasha_Kashirina">
-        <img src="https://img.shields.io/badge/Telegram-@Dasha_Kashirina-2CA5E0?style=flat-square&logo=telegram"
-            alt="Телега"></a>
+        <img src="https://img.shields.io/badge/Telegram-@Dasha_Kashirina-2CA5E0?style=flat-square&logo=telegram">
+        </a>
 
-[Telegram](https://путь/к/ссылке) [ВКонтакте](https://vk.com/dasha_life_diary)  
+[ВКонтакте](https://vk.com/dasha_life_diary)  
 
