@@ -429,10 +429,6 @@
     </Window.Resources>
     <Grid x:Name="Body_form">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="5*"/>
-            <ColumnDefinition Width="19*"/>
-            <ColumnDefinition Width="4*"/>
-            <ColumnDefinition Width="11*"/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <Grid.Background>
@@ -442,9 +438,9 @@
                 <GradientStop Color="#FF9488B9" Offset="0.969"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <Button Style="{DynamicResource ButtonStyle1}" x:Name="but_add" Content="Добавить" HorizontalAlignment="Left" Margin="0,74,0,0" VerticalAlignment="Top" Height="22" Width="98" Click="Button_Click" Background="#FFFAB6FF" BorderBrush="Black" Grid.Column="3"/>
-        <TextBox x:Name="post_text" Style="{DynamicResource TextBoxStyle1}" HorizontalAlignment="Left" Margin="25,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="353" Height="18" RenderTransformOrigin="0.296,0.558" Background="#FFFDE1FF" Grid.ColumnSpan="4"/>
-        <ComboBox x:Name="list_priority" Style="{DynamicResource ComboBoxStyle}" HorizontalAlignment="Left" Margin="25,74,0,0" VerticalAlignment="Top" Width="105" BorderBrush="#FFFAB6FF" Foreground="Black" Height="22" Grid.ColumnSpan="2" >
+        <Button Style="{DynamicResource ButtonStyle1}" x:Name="but_add" Content="Добавить" HorizontalAlignment="Left" Margin="219,75,0,0" VerticalAlignment="Top" Height="22" Width="155" Click="Button_Click" Background="#FFFAB6FF" BorderBrush="Black" FontSize="14" FontWeight="Bold" FontFamily="Ink Free"/>
+        <TextBox x:Name="post_text" Style="{DynamicResource TextBoxStyle1}" HorizontalAlignment="Left" Margin="22,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="358" Height="18" RenderTransformOrigin="0.296,0.558" Background="#FFFDE1FF" FontFamily="Ink Free"/>
+        <ComboBox x:Name="list_priority" Style="{DynamicResource ComboBoxStyle}" HorizontalAlignment="Left" Margin="21,75,0,0" VerticalAlignment="Top" Width="190" BorderBrush="#FFFAB6FF" Foreground="Black" Height="22" FontFamily="Ink Free" >
             <ComboBox.Background>
                 <LinearGradientBrush EndPoint="0,1">
                     <GradientStop Color="#FFF0F0F0"/>
@@ -456,13 +452,13 @@
             <TextBlock Background="Yellow">Не важное и не срочное</TextBlock>
             <TextBlock Background="Green">Не срочно но важно</TextBlock>
         </ComboBox>
-        <ListBox x:Name="list" Style="{DynamicResource ListBoxStyle}" Margin="24,109,14,74" Grid.ColumnSpan="4" Background="#FFFBD3FF">
+        <ListBox x:Name="list" Style="{DynamicResource ListBoxStyle}" Margin="0,113,0,70" Background="#FFFBD3FF" HorizontalAlignment="Center" Width="360" FontFamily="Ink Free">
             <ListBox.ItemTemplate>
                 <DataTemplate>
                     <CheckBox Content="{Binding}" />
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
-        <TextBox x:Name="post_text_Копировать" Style="{DynamicResource TextBoxStyle1}" HorizontalAlignment="Left" Margin="102,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="108" Height="18" RenderTransformOrigin="-0.99,0.447" Background="#FFFDE1FF" Grid.Column="1" Grid.ColumnSpan="2"/>
+
     </Grid>
 </Window>

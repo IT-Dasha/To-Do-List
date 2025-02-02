@@ -34,23 +34,18 @@ namespace To_Do_List
         {
             // Получаем текст из TextBox
             string newItem = post_text.Text;
-            DateTime? selectedDate = date.SelectedDate;
+
 
             // Проверяем, не пустой ли текст
-            if (!string.IsNullOrWhiteSpace(newItem)|| selectedDate.HasValue)
+            if (!string.IsNullOrWhiteSpace(newItem))
             {
-                // Вычисляем количество дней до выбранной даты
-                TimeSpan timeUntilDate = selectedDate.Value - DateTime.Today;
-                int daysRemaining = timeUntilDate.Days;
 
-                // Очищаем DatePicker
-                date.SelectedDate = null;
                 // Добавляем новый элемент в ListBox определенным цветом в соответствии выбором типа задачи
                 // Создаем новый текстовый элемент
                 TextBlock newTextBlock = new TextBlock();
 
                 // Устанавливаем текст
-                newTextBlock.Text = newItem + " Срок: " + selectedDate.Value.ToString("d") + " осталось: " + daysRemaining;
+                newTextBlock.Text = newItem + " Срок: " + " осталось: ";
 
                 // Устанавливаем цвет текста в зависимости от выбранного элемента
                 if (list_priority.SelectedIndex == 0)
