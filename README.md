@@ -28,6 +28,9 @@ To-Do List — это простая и удобная программа для
 - **Не важное и не срочное**: Желтый 
 - **Не срочно но важно**: Зеленый
 
+## Фото интерфейса
+	
+<img src="https://github.com/IT-Dasha/To-Do-List/blob/main/image/To-do-list.png" width = "450" height="450">
 
 ## Средства связи и сотрудничества
 <a href="https://t.me/Dasha_Kashirina"><img alt="Static Badge" src="https://img.shields.io/badge/Telegram-blue?style=flat&logo=Telegram&logoColor=white"></a>
