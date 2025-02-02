@@ -11,7 +11,7 @@ To-Do List — это простая и удобная программа для
 ## Установка
 1. Склонируйте репозиторий:
    ```bash
-   git clone [https://github.com/ваш-репозиторий/to-do-list.git](https://github.com/IT-Dasha/To-Do-List.git)
+   git clone (https://github.com/IT-Dasha/To-Do-List.git)
    ```
 2. Откройте проект в вашей среде разработки (например, Visual Studio).
 3. Соберите и запустите приложение.
